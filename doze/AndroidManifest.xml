@@ -50,8 +50,12 @@
             android:label="@string/ambient_display_title"
             android:theme="@style/Theme.Main">
             <intent-filter>
+<<<<<<< HEAD
                 <action android:name="org.cyanogenmod.settings.device.DOZE_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
+=======
+                <category android:name="android.intent.category.EXTRA_SETTINGS" />
+>>>>>>> 036595e... Doze: Do not show OnePlusAmbient in main Settings menu
             </intent-filter>
         </activity>
 
