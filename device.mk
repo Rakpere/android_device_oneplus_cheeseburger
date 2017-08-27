@@ -240,6 +240,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.msm8998
 
+# Prebuilds
+PRODUCT_PACKAGES += \
+    GoogleCamera\
+    Substratum    
+    
 # QMI
 PRODUCT_PACKAGES += \
     libjson
